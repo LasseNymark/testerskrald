@@ -1,0 +1,233 @@
+        /* ----- GLOBAL ----- */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Muli, sans-serif;
+}
+
+/* Alt tekst */
+
+.tekst{
+    margin: 0;
+    padding: 5% 5% 0 5%;
+    text-align: center;
+    line-height: 25px;
+    color: #dae8f7 ;
+}
+
+/* Alle overskrifter */
+
+
+.overskrift{
+    font-family: 'Muli light';
+    font-weight: 100;
+    margin: 0;
+    padding: 5% 5% 0 5%;
+    text-align: center;
+    line-height: 25px;
+    color: #dae8f7 ;
+    font-size: 20px;
+}
+
+.overskrift1{
+    font-family: 'Muli light';
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 25px;
+    color: #dae8f7;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+/* Alle sections */
+
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8{
+    background-color: #7f6650;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+/* Baggrund til alle sections */
+
+#sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8{
+    background-image: url(../images/jord.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Skrald på siden */
+
+.skrald{
+    
+}
+
+.skrald1{
+    width: 20%;
+    position: absolute;
+    left: 4%;
+    top: 8%;
+}
+
+.skrald2{
+    width: 22%;
+    position: absolute;
+    top: 0%;
+    left: 75%;
+}
+
+.skrald3{
+    width: 33%;
+    position: absolute;
+    left: 0%;
+    top: 5%;
+}
+
+.skrald4{
+    width: 17.5%;
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+    transform: rotate(90deg)
+}
+
+.skrald5{
+    width: 10%;
+    position: absolute;
+    bottom: 35%;
+    left: 84%; 
+    transform: rotate(45deg)
+}
+
+        /* --- SECTION 1 --- */
+
+#sec1 #logo{
+    width: 40%;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+#sec1 .imgbcg{
+     width:100%;
+}
+
+        /* --- SECTION 2 --- */
+
+#sec2{
+    position: relative;
+}
+
+        /* --- SECTION 3 --- */
+
+#video1{
+    padding: 5% 0;
+    width: 90%;
+    margin: 0 5%;
+}
+
+        /* --- SECTION 4 --- */
+
+#sec4 p{
+    padding: 0 5% 5% 5%;
+}
+
+#sec4 img{
+    width: 100%;
+}
+
+        /* --- SECTION 5 --- */
+
+#wastehuntimg{
+    width: 40%;
+    margin: 0 30%;
+}
+
+/* */
+
+#sec5 p{
+    padding: 0 5% 5% 5%;
+}
+
+/* Waste Hunt Facebook */
+
+#sec5 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #dae8f7;
+    text-decoration: underline;
+}
+
+        /* --- SECTION 7 --- */
+
+/* CTA Btn */
+
+.btn{
+    width: 60%;
+    margin: 5% 20%;
+    padding: 2%;
+    background-color: #31404f;
+    border: 2px solid #31404f;
+    border-radius: 10px;
+    box-shadow: 3px 3px #000;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #dae8f7;
+}
+
+        /* --- SECTION 8 --- */
+
+/* Content billede */
+
+#sec6 img{
+    width: 70%;
+    margin: 5% 15% 0;
+    border: 0px #dae8f7 solid;
+    border-radius: 5px;
+}
+
+        /* --- SECTION 6 --- */
+
+/* Container */
+
+#sec8 #containerfooter{
+    padding: 5% 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Container flex */
+
+.sec8flex{
+    width: 20%;
+}
+
+#sec8 .footerimg{
+    width: 100%;
+}
+
+              /* --- MEDIE QUERY --- */
+
+        /* --- TABLET --- */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+        /* --- DESKTOP --- */
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+
